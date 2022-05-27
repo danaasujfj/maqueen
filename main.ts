@@ -13,7 +13,24 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(2000)
 })
 input.onButtonPressed(Button.B, function () {
-	
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
+    basic.pause(2000)
+    basic.pause(500)
+    maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 255)
+    basic.pause(500)
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
+    basic.pause(2000)
+    basic.pause(500)
+    maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 255)
+    basic.pause(500)
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
+    basic.pause(2000)
+    basic.pause(500)
+    maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 255)
+    basic.pause(500)
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
+    basic.pause(2000)
+    basic.pause(500)
 })
 basic.forever(function () {
 	
